@@ -54,7 +54,8 @@ a {
   color: #404bbf;
   position: relative;
  
-  .link_ ::after{
+}
+  .link_::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -64,11 +65,9 @@ a {
     background-color: #404bbf;
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-  }
-
 }
+
+
 .link_:hover,
 .link_:focus {
   color: #404bbf;
