@@ -64,7 +64,7 @@ a {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -316,4 +316,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.list_item_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+
 }
