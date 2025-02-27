@@ -394,3 +394,36 @@ img {
 .team_svg{
   fill: #f4f4fd;
 }
+.fot-spsyal-p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#ffffff;
+  margin-bottom: 16px;
+
+}
+.fot-sosyal-ul{
+  display: flex;
+  gap: 16px;
+}
+.fot-sosyal-li{
+  width: 40px;
+  height: 40px;
+}
+.fot-sosyal-link{
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.fot-sosyal-link:hover,.fot-sosyal-link:focus{
+  background-color: #31d0aa;
+}
+.fot-sosyal-svg{
+  fill: #f4f4fd;
+}
