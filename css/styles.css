@@ -433,3 +433,6 @@ img {
   display: flex;
   align-items: baseline;
 }
+.footer-div{
+  margin-right: 120px;  
+}
