@@ -28,6 +28,7 @@ a {
   margin: 0 auto;
   padding: 0 15px;
   
+  
 }
 
 .logo {
@@ -426,4 +427,12 @@ img {
 }
 .fot-sosyal-svg{
   fill: #f4f4fd;
+}
+.fot-sosyal{
+display:flex;
+align-items: baseline;
+}
+.container-fot{
+  display: flex;
+  align-items: baseline;
 }
